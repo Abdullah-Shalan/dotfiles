@@ -23,4 +23,4 @@ source $ZSH/oh-my-zsh.sh
 # Aliases
 alias cls=clear
 alias path="echo $PATH | tr ':' '\n' && echo $PATH | tr ':' '\n' | wc -l"
-
+alias vi='nvim'
