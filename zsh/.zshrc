@@ -19,6 +19,8 @@ plugins=(
 
 source $ZSH/oh-my-zsh.sh
 
+#fzf key bindings
+source <(fzf --zsh)
 
 # Aliases
 alias cls=clear
