@@ -19,10 +19,13 @@ plugins=(
 
 source $ZSH/oh-my-zsh.sh
 
-#fzf key bindings
+# fzf shell integration
 source <(fzf --zsh)
+
+# set environment variables 
+export EDITOR='nvim'
 
 # Aliases
 alias cls=clear
 alias path="echo $PATH | tr ':' '\n' && echo $PATH | tr ':' '\n' | wc -l"
-alias vi='nvim'
+alias v='nvim'
