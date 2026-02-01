@@ -19,6 +19,7 @@ fi
 echo "---"
 echo "Open Obsidian | bash='open' param1='-a' param2='Obsidian' terminal=false"
 echo "Open This Script | bash='code' param1='$DIR_NAME' terminal=false"
+echo "View on Github | bash='open' param1='https://github.com/abdullah-shalan/obsidian-vault' terminal=false"
 echo "Refresh | refresh=True"
 echo "---"
 echo "Remove changes | shell=/Users/abdullah/.swiftbar/restore_helper.sh terminal=false"
