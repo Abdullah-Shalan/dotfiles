@@ -29,3 +29,4 @@ export EDITOR='nvim'
 alias cls=clear
 alias path="echo $PATH | tr ':' '\n' && echo $PATH | tr ':' '\n' | wc -l"
 alias v='nvim'
+alias c='cursor'
