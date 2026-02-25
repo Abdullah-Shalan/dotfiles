@@ -12,11 +12,11 @@
 # @raycast.description Automatically opens and aligns (Teams and Outlook)  on second monitor
 # @raycast.author Abdullah
 
-open -a Microsoft\ Outlook
+open -a Microsoft\ Teams 
 sleep 1
 open -g raycast://extensions/raycast/window-management/top-half
 
-open -a Microsoft\ Teams
+open -a Microsoft\ Outlook
 sleep 1
 open -g raycast://extensions/raycast/window-management/bottom-half
 
