@@ -1,0 +1,21 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python Debugger: Current File",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "args": [
+                "https://kfa.ciphersa.net/s/fa/app/security/rules/id/fb05372f-ef8b-4c54-995f-a3189ca69b17",
+                "fa-com-hijack-tune",
+                "Component Object Model Hijacking"
+            ]
+
+        }
+    ]
+}
