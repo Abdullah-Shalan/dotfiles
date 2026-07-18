@@ -23,7 +23,12 @@ source $ZSH/oh-my-zsh.sh
 source <(fzf --zsh)
 
 # set environment variables 
-export EDITOR='nvim'
+export EDITOR='code'
+
+# set PATH
+export PATH="/opt/homebrew/opt/mysql-client/bin:$PATH"
+export PATH="/opt/homebrew/opt/openjdk@17/bin:$PATH"
+
 
 # Aliases
 alias cls=clear
