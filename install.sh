@@ -93,7 +93,7 @@ if [ -d "$DOTFILES_DIR/vscode" ]; then
 
     if command -v code &> /dev/null && [ -f "$VSCODE_TARGET/extensions.txt" ]; then
         echo "💻 Installing VS Code extensions..."
-        cat "$VSCODE_TARGET/extensions.txt" | xargs -L 1 code --install-extension --force
+        cat "$VSCODE_TARGET/extensions.txt" | xargs -L 1 code --install-extension
     fi
 fi
 
