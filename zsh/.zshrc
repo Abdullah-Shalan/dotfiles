@@ -33,6 +33,4 @@ export PATH="/opt/homebrew/opt/openjdk@17/bin:$PATH"
 # Aliases
 alias cls=clear
 alias path="echo $PATH | tr ':' '\n' && echo $PATH | tr ':' '\n' | wc -l"
-alias v='nvim'
-alias c='cursor'
 alias gbd='git branch --merged | grep -Ev "(^\*|^\+|master|main|dev)" | xargs --no-run-if-empty git branch -d'
