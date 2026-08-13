@@ -19,17 +19,18 @@ plugins=(
 
 source $ZSH/oh-my-zsh.sh
 
-# fzf shell integration
-source <(fzf --zsh)
 
 # set environment variables 
 export EDITOR='code'
-
-# set PATH
 export PATH="$HOME/.local/bin:$PATH"
-
 
 # Aliases
 alias cls=clear
 alias path="echo $PATH | tr ':' '\n' && echo $PATH | tr ':' '\n' | wc -l"
 alias gbd='git branch --merged | grep -Ev "(^\*|^\+|master|main|dev)" | xargs --no-run-if-empty git branch -d'
+
+# Auto complete / shell integrations
+source <(fzf --zsh)
+autoload -U +X bashcompinit && bashcompinit
+complete -o nospace -C /opt/homebrew/bin/terraform terraform
+complete -C "$HOME/.local/bin/aws_completer" aws

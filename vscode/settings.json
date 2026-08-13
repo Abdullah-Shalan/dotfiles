@@ -170,4 +170,5 @@
   "chat.disableAIFeatures": true,
   "editor.formatOnPaste": true,
   "tailscale.ssh.defaultUsername": "abdullah",
+  "breadcrumbs.filePath": "last",
 }
