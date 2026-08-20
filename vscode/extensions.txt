@@ -1,3 +1,5 @@
+4ops.packer
+4ops.terraform
 adpyke.codesnap
 mhutchie.git-graph
 ms-dotnettools.csdevkit
@@ -21,6 +23,7 @@ ms-vscode.cpptools-extension-pack
 ms-vscode.cpptools-themes
 ms-vscode.remote-explorer
 redhat.java
+redhat.vscode-yaml
 streetsidesoftware.code-spell-checker
 tailscale.vscode-tailscale
 twxs.cmake
